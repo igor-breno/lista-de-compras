@@ -1,0 +1,71 @@
+
+/* Define o estilo da página */
+body {
+font-family: Arial, sans-serif; /*Fonte*/
+background-color: green;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; /*Alinhamento do display no body*/
+align-items: center; /*Alinhamento dos itens*/
+height: 100vh;
+
+}
+.container {
+    text-align: center ;
+    background-color:white;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb (0, 0, 0, 0.1) ; /*efeito da sombra*/
+    
+}
+/*Estilo dos campos de input e botões*/ 
+
+input[type="text"], input [type="number"] {
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(192, 202, 197);
+    color: black;
+    border: none; /*Sem borda*/
+    border-radius: 5px;
+}
+
+/*Estilo do botão*/
+
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 20px; /* Margem */
+    background-color: #d3a117; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem bordar */
+    border-radius: 15px 15px; /* Arrendondamento das bordas */
+    cursor: pointer;
+}
+
+/* Efeito mudança de cor ao passar o mouse */
+
+button:hover {
+    background-color: #ffc400; /* Cor ao passar o mouse */
+}
+
+/* Estilos das tabela */
+
+table {
+    width: 100%; /* Largura */
+    margin-top: 20px; /* Alinhamento da margem acima */
+    border-collapse: solid; /* Borda dispersa */
+    text-align: left; /* Alinhamento do texto */
+}
+
+/* Estilo das linhas e celulas da tabela */
+
+th, td {
+    padding: 10px; /* Espaçamento */
+    border: 1px solid #ccc; /* Cor da borda */
+}
+
+/* Oculta elementos inicialmente */
+
+.oculto {
+    display: none; /* Retira o elemento do display */
+} 
